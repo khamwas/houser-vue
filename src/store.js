@@ -22,17 +22,16 @@ export default new Vuex.Store({
 	actions: {
 		setHouses() {
 			axios.get('/api/houses').then((res) => {
-				console.log(res.data);
 				this.commit('SET_HOUSES', res.data);
 			});
 		},
-		deleteHouse(id) {
+		deleteHouse(context, id) {
 			axios.delete(`/api/houses/${id}`).then((res) => {
 				//console.log(res.data)
 				this.commit('DELETE_HOUSE', res.data);
 			});
 		},
-		addHouse(house) {
+		addHouse(context, house) {
 			axios.post('/api/houses', house).then((res) => {
 				//console.log(res.data)
 				this.commit('ADD_HOUSE', res.data);

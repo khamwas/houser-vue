@@ -1,9 +1,8 @@
 <template>
   <v-app>
     <Header></Header>
-    <v-content>
+    <v-content style="background: #afd4c0">
       <router-view :key="$route.fullPath"></router-view>
-      <v-btn color="primary" v-on:click="set">Axios</v-btn>
     </v-content>
   </v-app>
 </template>
@@ -23,8 +22,10 @@ export default {
     Wizard
   },
   methods: {
-    set: function() {
-      this.$store.dispatch("setHouses");
+    delete: function(id) {
+      this.$store
+        .dispatch("deleteHouse(id)")
+        .then(() => this.$store.dispatch("setHouses"));
     }
   },
   mounted() {
