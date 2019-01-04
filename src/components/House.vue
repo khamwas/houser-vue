@@ -6,7 +6,6 @@
 
 <script>
 import Vue from "vue";
-import axios from "axios";
 import HouseCard from "./HouseCard.vue";
 
 export default {

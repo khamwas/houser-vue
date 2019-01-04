@@ -1,14 +1,13 @@
 <template>
-  <v-app>
+  <v-app style="background: #afd4c0">
     <Header></Header>
-    <v-content style="background: #afd4c0">
+    <v-content align-center>
       <router-view :key="$route.fullPath"></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import axios from "axios";
 import Header from "./components/Header.vue";
 import Dashboard from "./components/Dashboard.vue";
 import House from "./components/House";
