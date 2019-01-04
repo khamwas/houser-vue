@@ -3,6 +3,7 @@
     <Header></Header>
     <v-content>
       <router-view :key="$route.fullPath"></router-view>
+      <v-btn color="primary" v-on:click="set">Axios</v-btn>
     </v-content>
   </v-app>
 </template>
@@ -20,6 +21,11 @@ export default {
     Dashboard,
     House,
     Wizard
+  },
+  methods: {
+    set: function() {
+      this.$store.dispatch("setHouses");
+    }
   },
   mounted() {
     this.$store.dispatch("setHouses");
