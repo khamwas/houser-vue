@@ -1,3 +1,7 @@
+[link](khamwas.github.io)
+[
+link](http://khamwas.github.io)
+
 # Houser Real Estate App in Vue
 
 #### a project by Emmanuel Bravo
@@ -19,11 +23,11 @@ Approximately 6 hours worked independently.
 
 #### Wizard Step 3 (Add a Listing)
 
-![step3](https://media.giphy.com/media/YiAhoyILcH72q9W4Ei/giphy.gif)
+![add](https://media.giphy.com/media/YiAhoyILcH72q9W4Ei/giphy.gif)
 
 #### Delete Listing
 
-![delete](https://media.giphy.com/media/9VyZNH66etPorRMpdq/giphy.gif)
+![delet](https://media.giphy.com/media/9VyZNH66etPorRMpdq/giphy.gif)
 
 ## Table of Contents
 
