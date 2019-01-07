@@ -10,13 +10,13 @@ Vue.use(Vuetify, {
 	iconfont: 'md',
 	//theme for material design
 	theme: {
-		primary: '#519872', // grey darken-3
+		primary: '#519872',
 		secondary: 'e5f4ec',
 		tertiary: 'afd4c0',
 		background: 'afd4c0',
-		success: '#dedede', // orange darken-2
-		info: '#3b5249', // blue darken-4
-		error: '#D32F2F' //red darken-2
+		success: '#dedede',
+		info: '#3b5249',
+		error: '#D32F2F'
 	}
 });
 
