@@ -19,11 +19,11 @@ Approximately 6 hours worked independently.
 
 #### Wizard Step 3 (Add a Listing)
 
-![add](https://media.giphy.com/media/YiAhoyILcH72q9W4Ei/giphy.gif)
+![add](./gifs/add.gif)
 
 #### Delete Listing
 
-![delete](https://media.giphy.com/media/9VyZNH66etPorRMpdq/giphy.gif)
+![delete](./gifs/delete.gif)
 
 ## Table of Contents
 
